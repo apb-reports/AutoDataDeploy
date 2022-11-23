@@ -4,7 +4,8 @@ Export data from MSSQL/Oracle to txt based files automatically
 So why did we develop Auto Data Deploy (ADD)?
 
 We wanted to make it very fast and easy to export sql queries from MSSQL/Oracle to existing text file templates.<br> 
-These text file templates can be HTML, JS, JSON, XML, TXT etc. 
+These text file templates can be HTML, JS, JSON, XML, TXT etc.<br> 
+We also wanted the ability to repeat this process automatically so we could refresh dashboards and other files via scheduled tasks.
 
 ADD allows you to update existing text templates in 2 different ways:<br>
 - You can update a token named {{DATA}} with a data array. This is useful for population multi-line data arrays.<br>
